@@ -1,12 +1,44 @@
-# React + Vite
+# LYRA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LYRA is a feature-rich platform inspired by Gemini, designed to deliver seamless performance and an intuitive user experience. It mirrors the essential capabilities of Gemini while offering custom enhancements.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time data sync and updates  
+- Intuitive and responsive UI  
+- Modular architecture for scalability  
+- Optimized for performance and SEO
+- Minimal dependencies
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, Vite  
+- **Styling**: HTML, CSS  
+- **API**: Gemini API
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+  ```bash
+git clone https://github.com/maheensohail1/Lyra-GeminiAI
+cd Lyra-GeminiAI
+```
+
+### 2. Install the Dependencies
+```bash
+npm install
+```
+### 3. Setup Environment Variables
+Create .env file at the root of the project and declare 'VITE_GEMINI_API_KEY' in it once you generate your own Gemini API key from https://aistudio.google.com/apikey
+
+### 4. Run the Project
+```bash
+npm run dev
+```
+
+## 🌐 Live Demo
+Check out the live version here: https://lyra-gemini-ai.vercel.app/
+
+
+
+
